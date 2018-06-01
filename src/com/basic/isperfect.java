@@ -5,7 +5,7 @@ public class isperfect{
     {
     	
     	isperfect m1=new isperfect();
-    	System.out.println(m1.number(5));
+    	System.out.println(m1.number(6));
     }
     public  boolean number(int number)
     {
