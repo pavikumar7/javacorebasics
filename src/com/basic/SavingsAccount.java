@@ -27,14 +27,13 @@ public class SavingsAccount {
 
 
 		public static void main(String[] args) {
-			double annaulIN=2000.0;
-			double savingBal=300;
+			
 			SavingsAccount saver1=new SavingsAccount(2000);
 			SavingsAccount saver2= new SavingsAccount(3000);
 			SavingsAccount.modifyRate(4);
 			saver1.showbal();
 			saver2.showbal();
-			saver1.CalculateIN();
+			saver1.CalculateIN();                           
 			saver2.CalculateIN();
 			saver1.showbal();
 			saver2.showbal();
@@ -45,6 +44,7 @@ public class SavingsAccount {
 			saver2.CalculateIN();
 			saver1.showbal();
 			saver2.showbal();
+			
 		}
 		
 	}
